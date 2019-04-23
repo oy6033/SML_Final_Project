@@ -25,8 +25,11 @@ tensorflow, python-midi (or python3-midi)
 
 ## How to run?
 
-python rnn_gan.py --datadir "relative-path-to-data" --traindir "path-to-generated-output" --feed_previous --feature_matching --bidirectional_d --learning_rate 0.1 --pretraining_epochs 6
+Modified:
 
+python rnn_gan.py --datadir "relative-path-to-data" --traindir "path-to-generated-output" --feed_previous --feature_matching --bidirectional_d --learning_rate 0.11 --pretraining_epochs 10 [Wanted Genre: jazz, classical, both]
+
+Modified From
 Author: Olof Mogren (olofmogren)
 Contributors: Dhruv Sharma (dhruvsharma1992)
 
