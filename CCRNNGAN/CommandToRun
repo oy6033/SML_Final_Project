@@ -1,0 +1,2 @@
+python rnn_gan.py --datadir "relative-path-to-data" --traindir "path-to-generated-output" --feed_previous --feature_matching --bidirectional_d --learning_rate 0.11 --pretraining_epochs 10 [Wanted Genre: jazz, classical, both]
+
